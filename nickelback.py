@@ -17,6 +17,6 @@ song_list_a = {
 
 #  Using a set comprehension, create a new set that contains all songs that were not performed by Nickelback.
 
-song_list_b = {song for song in song_list_a if song[0] == 'Nickelback'}
+song_list_b = {song for song in song_list_a if song[0] != 'Nickelback'}
 
 print(song_list_b)
